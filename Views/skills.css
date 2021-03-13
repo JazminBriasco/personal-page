@@ -1,0 +1,66 @@
+.container-skills {
+    margin-top: 0.1%;
+    color: black;
+}
+
+.skill-content-opacity{
+    opacity: 98%;
+}
+
+.mt-5p{
+    margin-top: 5%;
+}
+
+.text-black{
+    color: black;
+    font-size: 1.3em;
+}
+
+.text-white{
+    color: black;
+    font-size: 1.3em;
+}
+
+.hover-skill:hover {
+    background-color: rgb(131, 131, 131);
+    opacity: 90%;
+    color: black;
+
+}
+
+.hover-skill:hover tr{   
+    
+    color: black;
+}
+
+.hover-skill:hover td{   
+    
+    background-color: rgb(121, 120, 120);;
+}
+
+table{
+    border-collapse: separate;
+    width: 100%;
+    margin-left: 3%;
+    width: 96%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+.hr-border{
+    width: 90%;
+    border: 1px dashed rgb(80, 80, 80)
+}
+
+.btn-skills{
+    width: 100%;
+}
+
+.btn-skills:focus{
+    border-color: rgb(255, 255, 255);
+}
+
+td{
+    background-color: #353535;
+}

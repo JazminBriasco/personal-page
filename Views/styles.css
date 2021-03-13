@@ -1,0 +1,74 @@
+body{
+    
+    background-image: url("img/piqsels.com-id-zwsqq.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    margin-bottom: 3%;
+}
+
+.icon{
+    background-image: url("img/covid_corona_virus_coronavirus_covid_icon_140769.png");
+    height: 35px;
+    width: 35px;
+    background-size: 35px;
+ }
+ 
+
+.jmb-home{
+    background-image: url("img/ses.png");
+    width: 75%;
+    margin: auto;
+    background-attachment: fixed;
+    margin-top: 7%;
+    background-size: 90%;
+    background-repeat: no-repeat;
+
+    
+    
+ }
+
+.iconln{
+    background-image: url("img/in.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+.iconcel{
+    background-image: url("img/iphone.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+.nml-20{
+    margin-left: -20px;
+}
+
+.pl-14{
+    margin-left:19%;
+}
+
+.bg-pink{
+    background-color: #000000;   
+}
+
+.bg-salmon{
+    background-color: #2a2a2a;
+}
+
+.bg-peach{
+    background-color: #808080;
+}
+
+.bg-purple{
+    background-color: #dadad2;
+}
+
+.cont-center{
+    height: 100%;
+    width: 60%;
+    margin-left: 20%
+}
+
+.mx-w-50{
+    width: 50%;
+}
