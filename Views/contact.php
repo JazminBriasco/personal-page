@@ -55,7 +55,10 @@
 }
 
 /* Several different images */
-.bg-one {background-image: url("/jazmin-personal/Views/img/in.png");}
+.bg-one {
+  background-image: url("/jazmin-personal/Views/img/inn.png");
+
+  }
 .bg-two {
     background-color: black;
     background-image: url("/jazmin-personal/Views/img/phone.png");}
@@ -132,10 +135,10 @@
 }
 
 .right{
-       margin-bottom: -20%;
+    margin-bottom: -20%;
 }
 .left{
-       margin-bottom: -20%;
+    margin-bottom: -20%;
 }
 
 .margin-contact{
@@ -148,15 +151,14 @@
 
 <div class="wrapper ">
   <div class="parent " onclick="">
-  <!-- <div class ="bg-peach margin-contact" > -->
-    <div class="child bg-one ">
+    <div class="child bg-one">
       <a class="imageContact"  href="https://www.linkedin.com/in/jazm%C3%ADn-briasco-181ba4103/" target="_blank">LinkedIn</a>
     </div>
 
   </div>
   <div class="parent  " onclick="">
     <div class="child bg-two">
-      <a class="imageContact" href="https://telegram.me/JaaBris">Direct</a>
+      <a class="imageContact" href="https://telegram.me/JaaBris" target="_blank">Direct</a>
     </div>
   </div>
 
@@ -168,7 +170,7 @@
 
   <div class="parent " onclick="">
     <div class="child bg-four">
-      <a class="imageContact" href="mailto:briascojazmin@gmail.com">Gmail</a>
+      <a class="imageContact" href="mailto:briascojazmin@gmail.com" >Gmail</a>
     </div>
   </div>
 </div>

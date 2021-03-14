@@ -21,8 +21,11 @@
             ViewController::navView();
             require_once('Views/contact.php');
         }
-
-      
+        
+        public static function errorView(){
+            ViewController::navView();
+            require_once('Views/error.php');
+        }
     }
 
 

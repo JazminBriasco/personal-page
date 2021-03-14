@@ -73,6 +73,7 @@
                     <tr></tr>
                         <td>Generic class</td>
                         <td>Generic methods</td>
+                        <td>JSON</td>
                     </tr>
                 </tbody>
             </table>    
@@ -154,7 +155,7 @@
                     <tr></tr>
                         <td>Class</td>
                         <td>Methods</td>
-                        <td>Namespace y Autoload</td>
+                        <td>Namespace and Autoload</td>
                         <td>Request / Router</td>
                         <td>JSON</td>
                     <tr></tr>

@@ -12,7 +12,6 @@
         <a type ="button" class="nav-link text-light" value="home" onclick="window.location.href='<?php echo FRONT_ROOT?>/View/homeView'">|  <strong>Home</strong></a>
         </li>
         <li class="nav-item ">
-          <!-- <a class="nav-link text-dark" href="Views/skills.php">Skills</a> -->
           <a type ="button" class="nav-link text-light" value="skills" onclick="window.location.href='<?php echo FRONT_ROOT?>/View/skillsView'">|  <strong>Skills</strong></a>
         </li>
         <li class="nav-item">

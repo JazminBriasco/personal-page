@@ -27,7 +27,7 @@
                     call_user_func_array(array($controller, $methodName), $methodParameters);
             }
             else{
-           //     ViewController::errorView("ERROR 404: Invalid URL.");
+                ViewController::errorView();
             }
         }
     }
