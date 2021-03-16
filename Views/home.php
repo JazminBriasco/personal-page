@@ -8,8 +8,9 @@
 </div>
 
 <div class="jumbotron jmb-home w-75">
-  <p>Desarrolladora recién recibida de la Universidad Tecnológica Nacional de Mar del Plata. 
+  <p>Desarrolladora recién recibida de la Universidad Tecnológica Nacional. 
 Busco formar parte de una empresa con buen ambiente, donde se pueda avanzar laboralmente. </p>
+<p>Ciudad de residencia: Mar del Plata.</p>
 </div>
 
 <div class="jumbotron jmb-home w-75">
