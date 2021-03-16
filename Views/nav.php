@@ -17,6 +17,9 @@
         <li class="nav-item">
         <a type ="button" class="nav-link text-light" value="contact" onclick="window.location.href='<?php echo FRONT_ROOT?>/View/contactView'">|  <strong>Contact</strong></a>
         </li>
+        <li class="nav-item">
+        <a type ="button" class="nav-link text-light" href="https://resume.io/r/Mk4uSKkPS" target="_blank">|  <strong>Resume</strong></a>
+        </li>
       </ul>
     </div>
   </form>    
