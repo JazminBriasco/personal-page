@@ -1,0 +1,149 @@
+
+@keyframes myAnimation{
+    10%{                   
+        
+        -webkit-filter: grayscale(50%);
+        filter: grayscale(50%);
+        background-color:silver;
+    }
+    50%{                   
+        
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        background-color:black;
+    }
+    90%{                   
+        
+        -webkit-filter: grayscale(50%);
+        filter: grayscale(50%);
+        background-color:silver;
+    }
+  
+}
+
+@-webkit-keyframes myAnimation{
+  10%{                   
+        
+        -webkit-filter: grayscale(50%);
+        filter: grayscale(50%);
+        background-color:silver;
+    }
+    50%{                   
+        
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        background-color:black;
+    }
+    90%{                   
+        
+        -webkit-filter: grayscale(50%);
+        filter: grayscale(50%);
+        background-color:silver;
+    }
+}
+
+@-moz-keyframes myAnimation{
+  10%{                   
+        
+        -webkit-filter: grayscale(50%);
+        filter: grayscale(50%);
+        background-color:silver;
+    }
+    50%{                   
+        
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        background-color:black;
+    }
+    90%{                   
+        
+        -webkit-filter: grayscale(50%);
+        filter: grayscale(50%);
+        background-color:silver;
+    }
+}
+
+.contact-divs{
+    margin-top:10%;
+    padding-left: 12%;
+} 
+
+.contact-divs a{
+    
+    height: 1000px;
+    background-color: blueviolet;
+
+}
+
+.borders{
+    margin-left:2%;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color:black;
+    padding: 1.6%;    
+}
+
+.internal{
+    width: 250px;
+    height: 250px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color:black;
+}
+
+.borders:hover{
+    animation: myAnimation 4s linear 0s infinite;
+    -webkit-animation: myAnimation 4s  linear 0s infinite;         
+    -moz-animation: myAnimation 4s  linear 0s infinite;  
+}
+
+.imageContact1{
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-image:url("/jazmin-personal/Views/img/gh.png");
+}
+
+.imageContact2{
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-image:url("/jazmin-personal/Views/img/inbn.png");
+}
+
+.imageContact3{
+  background-size: 98.5%;
+  background-repeat:no-repeat;
+  background-image:url("/jazmin-personal/Views/img/telegram.png");
+}
+
+.imageContact4{
+  background-size: 101%;
+  background-repeat:no-repeat;
+  background-image:url("/jazmin-personal/Views/img/gm.png");
+}
+
+
+
+@media screen and (max-width:690px) {
+    .borders{
+        padding: 6%;    
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:1099px) {
+    .borders{
+        padding: 3%;    
+    }
+}
+
+
+@media screen and (min-width: 1100px) and (max-width:1500px) {
+    .borders{
+        padding: 2%;    
+    }
+}
+

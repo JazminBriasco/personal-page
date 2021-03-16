@@ -217,7 +217,7 @@
                         <td>Background</td>
                         <td>Color and gradient</td>
                     <tr></tr>
-                        <td>Basic transitions</td>
+                        <td>Basic animations</td>
                     </tr>    
                 </tbody>
             </table>    
@@ -285,4 +285,5 @@
             </table>
         </div>
     </div>
+
 </div>
