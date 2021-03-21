@@ -10,14 +10,14 @@
 
 <style>
     body{
-        background-image: url("/jazmin-personal/Views/img/woman-macbook-notebook-laptop.jpg");
+        /*background-image: url("/jazmin-personal/Views/img/woman-macbook-notebook-laptop.jpg");*/
         background-size: 100%;
         background-attachment: fixed;
         margin-bottom: 3%;
     }
 </style>
 
-<div class="skill-content-opacity" >
+<div class="skill-content-opacity skills-transition" >
     <div class="mt-5p cont-center container-skills hover-skill border border-dark list-group-item-action text-white bg-salmon " >
         <button class="btn btn-skills" type="button" data-toggle="collapse" data-target="#collapse-c" aria-expanded="false" aria-controls="collapseExample">
             <strong class="text-white">C</strong>

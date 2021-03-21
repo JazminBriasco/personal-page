@@ -20,6 +20,7 @@
      <link rel="stylesheet" href="/jazmin-personal/Views/css/skills.css?ver=<?php echo rand(111,999)?>" />
      <link rel="stylesheet" href="/jazmin-personal/Views/css/skills-responsive.css?ver=<?php echo rand(111,999)?>" />
      <link rel="stylesheet" href="/jazmin-personal/Views/css/contact.css?ver=<?php echo rand(111,999)?>" />
+     <link rel="stylesheet" href="/jazmin-personal/Views/css/home.css?ver=<?php echo rand(111,999)?>" />
      <link rel="stylesheet" media="only screen and (max-width: 1045px)" href="http://localhost/jazmin-personal/Views/skills-responsive.css?ver=<?php echo rand(111,999)?>" />
 </head>
 <body>

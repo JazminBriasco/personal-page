@@ -1,0 +1,142 @@
+.content-home{
+    margin-top:3%;
+}
+
+.jmb-home{
+   /*  background-image: url("../img/ses.png"); */
+    width: 75%;
+    margin: auto;
+    background-attachment: fixed;
+    margin-top: 4%;
+    background-size: 90%;
+    background-color: #626260; 
+    background-repeat: no-repeat;
+    animation: myAnimationjmb 2s  ease  ;
+    -webkit-animation: myAnimationjmb 2s   ease  ;         
+    -moz-animation: myAnimationjmb 2s   ease  ;  
+}
+
+@keyframes myAnimationjmb{
+    10%{                   
+        margin-top:3%;     
+        opacity: 0%;
+        color:black;
+    }30%{                   
+            margin-top:2%;       
+            opacity: 0%;
+            color:black;
+    }40%{            
+        margin-top:1%;       
+        opacity: 50%;
+        color:black;
+    }50%{            
+        
+        opacity: 50%;
+        color:black;
+    }70%{            
+        margin-top:-1%;       
+        opacity: 50%;
+        color:black;
+    }  
+    100%{            
+        opacity: 100%;
+        color:black;
+    }
+}
+
+@keyframes myAnimationGreeetings{
+    0%{                   
+        color:rgb(0, 0, 0);
+    }
+    10%{                   
+        margin-top: 40%;
+    }
+    50%{                   
+        color:rgb(70, 70, 70);
+    }
+    70%{                   
+        color:rgb(136, 136, 136);
+        margin-top:-2%;  
+    }
+    80%{                   
+        color:rgb(195, 195, 195);
+    }
+    90%{                   
+        color:rgb(255, 255, 255);
+    } 
+}
+
+@-webkit-keyframes myAnimationGreeetings{
+    0%{                   
+        color:rgb(0, 0, 0);
+    }
+    10%{                   
+        margin-top: 40%;
+    }
+    50%{                   
+        color:rgb(70, 70, 70);
+    }
+    70%{                   
+        color:rgb(136, 136, 136);
+        margin-top:-2%;  
+    }
+    80%{                   
+        color:rgb(195, 195, 195);
+    }
+    90%{                   
+        color:rgb(255, 255, 255);
+    } 
+}
+
+@-moz-keyframes myAnimationGreeetings{
+    0%{                   
+        color:rgb(0, 0, 0);
+    }
+    10%{                   
+        margin-top: 40%;
+    }
+    50%{                   
+        color:rgb(70, 70, 70);
+    }
+    70%{                   
+        color:rgb(136, 136, 136);
+        margin-top:-2%;  
+    }
+    80%{                   
+        color:rgb(195, 195, 195);
+    }
+    90%{                   
+        color:rgb(255, 255, 255);
+    } 
+}
+
+.greetings{
+    color:white;
+    width: 75%;
+    margin: auto;
+    margin-top: 3%;
+    font-family: sans-serif;
+    font-weight: 20px;
+    animation: myAnimationGreeetings 2s  ease  ;
+    -webkit-animation: myAnimationGreeetings 2s   ease  ;         
+    -moz-animation: myAnimationGreeetings 2s   ease  ;   
+}
+
+
+@keyframes myAnimationSkills{
+    0%{     opacity: 0%;        
+        /* transform: translateX(-10%);
+        transform: translateY(-10%);
+        transition: transform ease 1s; */
+    }
+   
+    100%{
+        opacity: 98%;
+    }
+}
+.skills-transition{
+    scroll-behavior: smooth;
+    animation: myAnimationSkills 2s  ease  ;
+    -webkit-animation: myAnimationSkills 2s   ease  ;         
+    -moz-animation: myAnimationSkills 2s   ease  ;   
+}
