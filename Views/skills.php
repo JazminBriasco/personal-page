@@ -1,13 +1,3 @@
-<?php
-/*
-    HTML: canvas y otros tags
-    CSS: Transiciones, parent-child 
-    BOOTSTRAP: grid
-    GIR: git ignonre y pull requests y repaso
-    SQL: modelo rellacional
-*/
-?>
-
 <style>
     body{
         /*background-image: url("/jazmin-personal/Views/img/woman-macbook-notebook-laptop.jpg");*/
@@ -17,273 +7,130 @@
     }
 </style>
 
-<div class="skill-content-opacity skills-transition" >
-    <div class="mt-5p cont-center container-skills hover-skill border border-dark list-group-item-action text-white bg-salmon " >
-        <button class="btn btn-skills" type="button" data-toggle="collapse" data-target="#collapse-c" aria-expanded="false" aria-controls="collapseExample">
-            <strong class="text-white">C</strong>
-        </button>
-        <div class="collapse" id="collapse-c">
-        <hr class="hr-border">  </hr>  
-            <table >
-                <tbody class="text-center">
-                    <tr >
-                        <td>Functions</td>
-                        <td>Data type</td>
-                        <td>Pointers</td>
-                        <td>Arrays</td>           
-                        <td>Multidimensional Arrays</td>     
-                    <tr></tr>
-                        <td>Dynamic Arrays</td>          
-                        <td>Structs</td>          
-                        <td>Recursion</td>
-                        <td>Linked lists</td>
-                        <td>Doubly Linked List</td>
-                    <tr></tr>
-                        <td>Stack</td>
-                        <td>Queue</td>
-                        <td>Binary Tree</td>
-                    </tr>    
-                </tbody>
-            </table>    
-        </div>
-    </div>
 
+<?php
+//Arrays. The 'skills' array is use for the names on the dropdowns, and the others are for the content. 
+    
+    $skills = [
+        'PHP', 'DATABASE', 'SQL', 'JAVA', 'HTML5', 'CSS3', 'BOOTSTRAP', 'LINUX', 'C', 'GIT'
+    ];
+    $php = [
+        'Logical operators', 'Arithmetic operators', 'Comparison operators','Unary operators', 'Conditional operators',
+        'Loops',' Functions',' Indexed arrays', 'Associative arrays', 'HTTP Methods: GET / POST', 'Class', 'Methods', 'Namespace and Autoload', 'Request / Router', 'JSON',
+        'SESSION', 'View-controller model', 'Database connection'
+    ];
+    $database = [
+        'Relational model', 'Normalization', 'Client-server model', 'ERD','Relational algebra'
+    ];
+    $sql = [
+        'Create, update, delete tables', 'Primary and Foreign keys', 'Insert, update, delete', 'Joins', 'Order and group', 'Restrictions',' Constraints', 'Subqueries','Stored Procedure: in, out, inout'
+    ];
+    $java = [
+        'POO',' Abstract Class', 'Map', 'Interfaces', 'Collections','Operators','Access modifiers', 'Exceptions', 'Files', 'Generic class', 'Generic methods', 'JSON' 
+    ];
+    $html = [
+        'Global structure','Headings and paragraphs','Links','Audio and video','Block elements','Inline elements','Images','Tables','Forms'
+    ];
+    $css = [
+        'Class / id selector','Margin and padding', 'Fonts', 'Backgrounds', 'Color and gradient', 'Basic animations'
+    ];
+    $bootstrap = [
+        'Layout', 'Content', 'Forms', 'Components'
+    ];
+    $linux = [
+        'Basic use of terminal'];
+    $c = [
+        'Functions', 'Data type','Pointers', 'Arrays', 'Multidimensional Arrays', 'Dynamic', 'ArraysStructs', 'Recursion', 'Linked Lists', 'Doubly Linked List' , 'Stack', 'Queue', 'Binary Tree'];
+    $git = [
+        'Create repository', 'Local / remote changes','Management branches', 'Gitignore', 'Merges','Resolve merge conflicts'
+    ];
 
+    //'mayor' is use to loop through all the arrays.
+    $mayor = [ $php, $database, $sql, $java, $html, $css, $bootstrap, $linux, $c, $git];
+?>
 
-    <div class="mt-3 cont-center container-skills hover-skill border border-dark list-group-item-action text-white bg-salmon  " >
-        <button class="btn btn-skills" type="button" data-toggle="collapse" data-target="#collapse-java" aria-expanded="false" aria-controls="collapseExample">
-            <strong class="text-white">JAVA</strong>
-        </button>
-        <div class="collapse" id="collapse-java">
-            <hr class="hr-border">  </hr>  
-            <table>
-                <tbody  class="text-center">
-                    <tr>
-                        <td>POO</td>
-                        <td>Abstract Class</td>
-                        <td>Equals</td>
-                        <td>Map</td>          
-                        <td>Interfaces</td>     
-                    <tr></tr>
-                        <td>Collections</td>                
-                        <td>Operators</td>           
-                        <td>Access modifiers</td>
-                        <td>Exceptions</td>
-                        <td>Files</td>
-                    <tr></tr>
-                        <td>Generic class</td>
-                        <td>Generic methods</td>
-                        <td>JSON</td>
-                    </tr>
-                </tbody>
-            </table>    
-        </div>
-    </div>
+<div class="skill-content-opacity skills-transition mt-5" >
 
+    <?php
+        $i = 0;
+        foreach ($mayor as $k => $v) {  ?>
+            <div class="mt-3 cont-center container-skills hover-skill border border-dark list-group-item-action text-white bg-salmon  " >
+                <button class="btn btn-skills" type="button" data-toggle="collapse" data-target="#collapse-<?php echo  $i+1 ?>" aria-expanded="false" aria-controls="collapseExample">
+                    <strong class="text-white">
+                        <?php  print_r($skills[$i]);
+                        $i++;
+                        ?>
+                    </strong>
+                </button>
+                <div class="collapse" id="collapse-<?php echo $i ?>">
+                    <hr class="hr-border">  </hr>  
+                    <table>
+                        <tbody  class="text-center">
+                            <tr>
+                    
+                                <?php
+                                    $round = ceil(count($v)/5);
+                                    if ($round >= 1) {
+                                        if (count($v) < 5) {
+                                            for ($q = 0; $q < count($v); $q++) {
+                                                ?> <td> <?php echo $v[$q]; ?> </td> <?php
+                                            }
+                                        } else {
+                                            for ($q = 0; $q <  5; $q++) {
+                                                ?> 
+                                            <td> <?php echo $v[$q]; ?> </td> <?php
+                                            }
+                                        } 
+                                                                    
+                                        ?><tr></tr><?php
 
+                                        if ($round >= 2) {
+                                            if (count($v) < 10) {
+                                                for ($q = 5; $q < count($v); $q++) {
+                                                    ?> <td> <?php echo $v[$q]; ?> </td> <?php
+                                                }
+                                            } else {
+                                                for ($q = 5; $q < 10; $q++) {
+                                                    ?> <td> <?php echo $v[$q]; ?> </td> <?php
+                                                } 
+                                            }
 
-    <div class="mt-3 cont-center container-skills hover-skill border border-dark list-group-item-action text-white bg-salmon  " >
-        <button class="btn btn-skills" type="button" data-toggle="collapse" data-target="#collapse-sql" aria-expanded="false" aria-controls="collapseExample">
-            <strong class="text-white" class="text-white">SQL</strong>
-        </button>
-        <div class="collapse" id="collapse-sql">
-            <hr class="hr-border">  </hr>  
-            <table>
-                <tbody  class="text-center">
-                    <tr>
-                        <td>Create table</td>
-                        <td>Primary and foreign keys</td>
-                        <td>Insert, update, delete</td>
-                        <td>Joins</td>
-                        <td>Order and group</td>
-                    <tr></tr>
-                        <td>Restrictions</td>
-                        <td>Constraints</td> 
-                        <td>Stored Procedure: in, out, inout</td>   
-                        <td></td>
-                        <td></td>
-                    </tr>    
-                </tbody>
-            </table>    
-        </div>
-    </div>
-
-
-    <div class="mt-3 cont-center container-skills hover-skill border border-dark list-group-item-action text-white bg-salmon  " >
-        <button class="btn btn-skills" type="button" data-toggle="collapse" data-target="#collapse-database" aria-expanded="false" aria-controls="collapseExample">
-            <strong class="text-white">Database</strong>
-        </button>
-        <div class="collapse" id="collapse-database">
-            <hr class="hr-border">  </hr>  
-            <table>
-                <tbody  class="text-center">
-                    <tr>
-                        <td>Relational model</td>
-                        <td>Normalization</td>
-                        <td>Client-server model</td>
-                        <td>ERD</td>          
-                        <td>Relational algebra</td>                   
-                    </tr>    
-                </tbody>
-            </table>    
-        </div>
-    </div>
-
-
-
-
-    <div class="mt-3 cont-center container-skills hover-skill border border-dark list-group-item-action text-white bg-salmon  " >
-        <button class="btn btn-skills" type="button" data-toggle="collapse" data-target="#collapse-php" aria-expanded="false" aria-controls="collapseExample">
-            <strong class="text-white">PHP</strong>
-        </button>
-        <div class="collapse" id="collapse-php">
-            <hr class="hr-border">  </hr>  
-            <table>
-                <tbody  class="text-center">
-                    <tr>
-                        <td>Logical operators</td>
-                        <td>Arithmetic operators</td>
-                        <td>Comparison operators</td>
-                        <td>Increment / decrement operators</td>
-                        <td>Conditional operators</td>
-                    <tr></tr>
-                        <td>Loops</td>
-                        <td>Functions</td>
-                        <td>Indexed arrays</td>
-                        <td>Associative arrays</td>
-                        <td>HTTP Methods: GET / POST</td>
-                    <tr></tr>
-                        <td>Class</td>
-                        <td>Methods</td>
-                        <td>Namespace and Autoload</td>
-                        <td>Request / Router</td>
-                        <td>JSON</td>
-                    <tr></tr>
-                        <td>SESSION</td>
-                        <td>View-controller model</td>
-                        <td>Database connection</td>
-                        <td></td>
-                        <td></td>
-                    </tr>    
-                </tbody>
-            </table>    
-        </div>
-    </div>
-
-
-
-
-    <div class="mt-3 cont-center container-skills hover-skill border border-dark list-group-item-action text-white bg-salmon  " >
-        <button class="btn btn-skills" type="button" data-toggle="collapse" data-target="#collapse-html" aria-expanded="false" aria-controls="collapseExample">
-            <strong class="text-white">HTML 5</strong>
-        </button>
-            <div class="collapse" id="collapse-html">
-                <hr class="hr-border">  </hr>  
-                <table>
-                    <tbody  class="text-center">
-                    <tr>
-                        <td>Global structure</td>
-                        <td>Headings and paragraphs</td>
-                        <td>Links</td>
-                        <td>Audio and video</td>
-                        <td>Block elements bloque</td>
-                    <tr></tr>
-                        <td>Inline elements</td>
-                        <td>Images</td>
-                        <td>Tables</td>
-                        <td>Forms</td>
-                    </tr>    
-                </tbody>
-            </table>    
-        </div>
-    </div>
-
-
-
-
-
-    <div class="mt-3 cont-center container-skills hover-skill border border-dark list-group-item-action text-white bg-salmon  " >
-        <button class="btn btn-skills" type="button" data-toggle="collapse" data-target="#collapse-css" aria-expanded="false" aria-controls="collapseExample">
-            <strong class="text-white">CSS 3</strong>
-        </button>
-        <div class="collapse" id="collapse-css">
-            <hr class="hr-border">  </hr>  
-            <table>
-                <tbody  class="text-center">
-                    <tr>
-                        <td>Class / id selector</td>
-                        <td>Margin and padding</td>
-                        <td>Font</td>
-                        <td>Background</td>
-                        <td>Color and gradient</td>
-                    <tr></tr>
-                        <td>Basic animations</td>
-                    </tr>    
-                </tbody>
-            </table>    
-        </div>
-    </div>
-
-
-        
-    <div class="mt-3 cont-center container-skills hover-skill border border-dark list-group-item-action text-white bg-salmon  " >
-        <button class="btn btn-skills" type="button" data-toggle="collapse" data-target="#collapse-git" aria-expanded="false" aria-controls="collapseExample">
-            <strong class="text-white">GIT</strong>
-        </button>
-        <div class="collapse" id="collapse-git">
-            <hr class="hr-border">  </hr>  
-            <table>
-                <tbody  class="text-center">
-                    <tr>
-                        <td>New local / remote repository</td>
-                        <td>Save local / remote changes</td>
-                        <td>Gitignore</td>
-                        <td>Create / delete local / remote branches</td>
-                        <td>Show local / remote branches</td>
-                    <tr></tr>
-                        <td>Merges</td>
-                        <td>Resolve merge conflicts</td>
-                    </tr>    
-                </tbody>
-            </table>
-        </div>
-    </div>
-
-
-
-    <div class="mt-3 cont-center container-skills hover-skill border border-dark list-group-item-action text-white bg-salmon  " >
-        <button class="btn btn-skills" type="button" data-toggle="collapse" data-target="#collapse-boot" aria-expanded="false" aria-controls="collapseExample">
-            <strong class="text-white">BOOTSTRAP</strong>
-        </button>
-        <div class="collapse" id="collapse-boot">
-            <hr class="hr-border">  </hr>  
-            <table>
-                <tbody  class="text-center">
-                    <tr>
-                        <td>Layout</td>
-                        <td>Content</td>
-                        <td>Forms</td>
-                        <td>Components</td>
-                    </tr>    
-                </tbody>
-            </table>
-        </div>
-    </div>
-
-    <div class="mt-3 cont-center container-skills hover-skill border border-dark list-group-item-action text-white bg-salmon  " >
-        <button class="btn btn-skills" type="button" data-toggle="collapse" data-target="#collapse-ubuntu" aria-expanded="false" aria-controls="collapseExample">
-            <strong class="text-white">UBUNTU</strong>
-        </button>
-        <div class="collapse" id="collapse-ubuntu">
-            <hr class="hr-border">  </hr>  
-            <table>
-                <tbody  class="text-center">
-                    <tr>
-                        <td>Basic use of terminal</td>
-                    </tr>    
-                </tbody>
-            </table>
-        </div>
-    </div>
-
+                                            ?><tr></tr><?php
+                                    
+                                        if ($round >= 3) {
+                                            if(count($v) < 15){
+                                                for ($q = 10; $q < count($v); $q++) {
+                                                ?> <td> <?php echo $v[$q]; ?> </td> <?php
+                                            }
+                                        }else{
+                                            for ($q = 10; $q <  15; $q++) {
+                                                ?> <td> <?php echo $v[$q]; ?> </td> <?php
+                                            } 
+                                        }
+                                    
+                                        ?><tr></tr><?php
+                                        if ($round >= 4) {
+                                            if (count($v) < 20) {
+                                                for ($q = 15; $q < count($v); $q++) {
+                                                    ?> <td> <?php echo $v[$q]; ?> </td> <?php
+                                                }
+                                            } else {
+                                                for ($q = 15; $q <  count($v); $q++) {
+                                                    ?> <td> <?php echo $v[$q]; ?> </td> <?php
+                                                }
+                                            }
+                                        }
+                                    }
+                                    }
+                                }
+                                
+                                ?>
+                            </tr>     
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        <?php
+        }
+    ?>
 </div>
