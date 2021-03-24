@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-salmon ">
   <div class="col-5 nml-20 ">
-    <a class="navbar-brand icon mr-1" onclick="window.location.href='<?php echo FRONT_ROOT?>View/homeView'"></a>
+    <a class="navbar-brand icon mr-1 ml-3" onclick="window.location.href='<?php echo FRONT_ROOT?>View/homeView'"></a>
   </div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon bg-purple "></span>
