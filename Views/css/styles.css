@@ -3,7 +3,7 @@ body{
     background-size: 100%;
     background-attachment: fixed;
     margin-bottom: 3%;
-    background-image: url("/jazmin-personal/Views/img/bg-principal.jpg");
+    background-image: url("/Views/img/bg-principal.jpg");
 }
 
 .icon{
