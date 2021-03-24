@@ -54,7 +54,7 @@
     <?php
         $i = 0;
         foreach ($mayor as $k => $v) {  ?>
-            <div class="mt-4 cont-center container-skills hover-skill border border-dark list-group-item-action text-white bg-salmon  " >
+            <div class="mt-4 cont-center container-skills hover-skill border border-dark list-group-item-action text-white bg-dark-grey  " >
                 <button class="btn btn-skills" type="button" data-toggle="collapse" data-target="#collapse-<?php echo  $i+1 ?>" aria-expanded="false" aria-controls="collapseExample">
                     <strong class="text-white">
                         <?php  print_r($skills[$i]);

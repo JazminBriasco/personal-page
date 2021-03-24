@@ -1,9 +1,9 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-salmon ">
+<nav class="navbar navbar-expand-lg navbar-light bg-dark-grey ">
   <div class="col-5 nml-20 ">
     <a class="navbar-brand icon mr-1 ml-3" onclick="window.location.href='<?php echo FRONT_ROOT?>View/homeView'"></a>
   </div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon bg-purple "></span>
+    <span class="navbar-toggler-icon bg-bone "></span>
   </button>
   <form>
     <div class="collapse navbar-collapse ml-5" id="navbarNavDropdown">

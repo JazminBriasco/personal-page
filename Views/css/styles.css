@@ -21,19 +21,19 @@ body{
     margin-left:19%;
 }
 
-.bg-pink{
+.bg-black{
     background-color: #000000;   
 }
 
-.bg-salmon{
+.bg-dark-grey{
     background-color: #2a2a2a;
 }
 
-.bg-peach{
+.bg-grey{
     background-color: #808080;
 }
 
-.bg-purple{
+.bg-bone{
     background-color: #dadad2;
 }
 
@@ -49,29 +49,47 @@ body{
 
 .mx-w-80p{
     max-width: 80%;
- }
+}
 
- .bg-jmb{
- background-color: #626260;
- }
+.bg-jmb{
+    background-color: #626260;
+}
 
- .mt-6p{
-     margin-top: 6%;
- }
+.mt-6p{
+    margin-top: 6%;
+}
 
- .mt-5p{
+.mt-5p{
     margin-top: 5%;
 }
 
- .tmp-jbm{
-     display: inline-flex;
- }
+.tmp-jbm{
+    display: inline-flex;
+}
 
 .a-link{
     color:#66baff ;
- }
+}
 
 .a-link:hover{
     color:#afd5f5 ;
- 
- }
+}
+
+@media screen and (max-width:690px) {
+    .navbar-toggler {
+
+        background-color: rgb(104, 104, 104);
+
+        margin-left: 50%;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:1099px) {
+    .navbar-toggler {
+
+        background-color: rgb(104, 104, 104);
+
+        margin-left: 50%;
+    }
+}
+
