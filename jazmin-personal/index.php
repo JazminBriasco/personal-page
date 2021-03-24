@@ -4,8 +4,8 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-require "jazmin-personal/Config/Autoload.php";
-require "jazmin-personal/Config/Config.php";
+require "Config/Autoload.php";
+require "Config/Config.php";
 //require "Views/css/style.css";
 
 use Config\Autoload as Autoload;
@@ -27,7 +27,7 @@ echo (dirname(__DIR__).'/jazmin-personal/header.php');
 echo '<br>';
 */
 
-require_once(dirname(__DIR__).'/jazmin-personal/jazmin-personal/Views/header.php');
+require_once(dirname(__DIR__).'/jazmin-personal/Views/header.php');
 
 Router::Route(new Request());
 
