@@ -1,3 +1,8 @@
+<?php
+
+echo 'dasdasd';
+?>
+
 <!doctype html>
 <html lang="en">
 <head>

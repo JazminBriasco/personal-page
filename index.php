@@ -16,7 +16,7 @@ Autoload::start();
 
 header('Cache-Control: no cache'); //disable validation of form by the browser
 echo FRONT_ROOT;
-require_once(VIEWS_PATH.'/header.php');
+require_once('jazmin-personal/Views/header.php');
 
 Router::Route(new Request());
 
