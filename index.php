@@ -27,7 +27,7 @@ echo (dirname(__DIR__).'/jazmin-personal/header.php');
 echo '<br>';
 */
 
-require_once(dirname(__DIR__).'/Views/header.php');
+require_once('/Views/header.php');
 
 Router::Route(new Request());
 
