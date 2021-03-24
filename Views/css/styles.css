@@ -1,10 +1,9 @@
 body{
-    
-    /* background-image: url("../img/piqsels.com-id-zwsqq.jpg");*/
     background-color: black;
     background-size: 100%;
     background-attachment: fixed;
     margin-bottom: 3%;
+    background-image: url("/jazmin-personal/Views/img/bg-principal.jpg");
 }
 
 .icon{
@@ -12,23 +11,10 @@ body{
     height: 35px;
     width: 35px;
     background-size: 35px;
- }
- 
-
-/* .jmb-home{
-    background-image: url("../img/ses.png");
-    width: 75%;
-    margin: auto;
-    background-attachment: fixed;
-    margin-top: 3%;
-    background-size: 90%;
-     background-color: #626260; 
-    background-repeat: no-repeat;
-} */
-
+}
 
 .nml-20{
-    margin-left: -20px;
+    margin-left: -45px;
 }
 
 .pl-14{
@@ -58,7 +44,7 @@ body{
 }
 
 .mx-w-50{
-   max-width: 50%;
+    max-width: 50%;
 }
 
 .mx-w-80p{

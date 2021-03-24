@@ -26,6 +26,11 @@
             ViewController::navView();
             require_once('Views/error.php');
         }
+        
+        public static function resumeView(){
+            ViewController::navView();
+            require_once('Views/resume.php');
+        }
     }
 
 

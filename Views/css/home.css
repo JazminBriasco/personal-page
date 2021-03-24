@@ -3,7 +3,7 @@
 }
 
 .jmb-home{
-   /*  background-image: url("../img/ses.png"); */
+    background-image: url("../img/ses.png"); 
     width: 75%;
     margin: auto;
     background-attachment: fixed;
@@ -124,12 +124,9 @@
 
 
 @keyframes myAnimationSkills{
-    0%{     opacity: 0%;        
-        /* transform: translateX(-10%);
-        transform: translateY(-10%);
-        transition: transform ease 1s; */
+    0%{     
+        opacity: 0%;        
     }
-   
     100%{
         opacity: 98%;
     }

@@ -1,6 +1,6 @@
 <style>
     body{
-        /*background-image: url("/jazmin-personal/Views/img/woman-macbook-notebook-laptop.jpg");*/
+       /*  background-image: url("https://p0.piqsels.com/preview/219/320/842/5be9930e0504d.jpg"); */
         background-size: 100%;
         background-attachment: fixed;
         margin-bottom: 3%;
@@ -54,7 +54,7 @@
     <?php
         $i = 0;
         foreach ($mayor as $k => $v) {  ?>
-            <div class="mt-3 cont-center container-skills hover-skill border border-dark list-group-item-action text-white bg-salmon  " >
+            <div class="mt-4 cont-center container-skills hover-skill border border-dark list-group-item-action text-white bg-salmon  " >
                 <button class="btn btn-skills" type="button" data-toggle="collapse" data-target="#collapse-<?php echo  $i+1 ?>" aria-expanded="false" aria-controls="collapseExample">
                     <strong class="text-white">
                         <?php  print_r($skills[$i]);
