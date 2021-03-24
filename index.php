@@ -18,10 +18,6 @@ header('Cache-Control: no cache'); //disable validation of form by the browser
 echo 'index';
 
 require('Views/header.php');
-require('/header.php');
-require('header.php');
-require(ROOT.'jazmin-personal/Views/header.php');
-
 
 Router::Route(new Request());
 
