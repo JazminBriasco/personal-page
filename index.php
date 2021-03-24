@@ -15,11 +15,8 @@ use Config\Request 	as Request;
 Autoload::start();
 
 header('Cache-Control: no cache'); //disable validation of form by the browser
-
-echo VIEWS_PATH;
-require_once('/Views/header.php');
-
-
+echo FRONT_ROOT;
+require_once(VIEWS_PATH.'/header.php');
 
 Router::Route(new Request());
 
