@@ -15,7 +15,6 @@ use Config\Request 	as Request;
 Autoload::start();
 
 header('Cache-Control: no cache'); //disable validation of form by the browser
-echo 'index';
 
 require('Views/header.php');
 
