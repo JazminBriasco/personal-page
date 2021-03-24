@@ -75,3 +75,28 @@ body{
     color:#afd5f5 ;
  
  }
+
+
+
+@media screen and (max-width:690px) {
+    .navbar-toggler {
+
+        background-color: rgb(104, 104, 104);
+
+        margin-left: 50%;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width:1099px) {
+    .navbar-toggler {
+
+        background-color: rgb(104, 104, 104);
+
+        margin-left: 50%;
+    }
+}
+
+
+
+
+
