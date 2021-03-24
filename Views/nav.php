@@ -9,16 +9,16 @@
     <div class="collapse navbar-collapse ml-5" id="navbarNavDropdown">
       <ul class="navbar-nav mr-auto "> 
         <li class="nav-item active ">
-        <a type ="button" class="nav-link text-light" value="home" onclick="window.location.href='<?php echo FRONT_ROOT?>/View/homeView'">|  <strong>Home</strong></a>
+        <a type ="button" class="nav-link text-light" value="home" onclick="window.location.href='<?php echo FRONT_ROOT?>View/homeView'">|  <strong>Home</strong></a>
         </li>
         <li class="nav-item ">
-          <a type ="button" class="nav-link text-light" value="skills" onclick="window.location.href='<?php echo FRONT_ROOT?>/View/skillsView'">|  <strong>Skills</strong></a>
+          <a type ="button" class="nav-link text-light" value="skills" onclick="window.location.href='<?php echo FRONT_ROOT?>View/skillsView'">|  <strong>Skills</strong></a>
         </li>
         <li class="nav-item">
-        <a type ="button" class="nav-link text-light" value="contact" onclick="window.location.href='<?php echo FRONT_ROOT?>/View/contactView'">|  <strong>Contact</strong></a>
+        <a type ="button" class="nav-link text-light" value="contact" onclick="window.location.href='<?php echo FRONT_ROOT?>View/contactView'">|  <strong>Contact</strong></a>
         </li>
         <li class="nav-item">
-        <a type ="button" class="nav-link text-light" value="contact" onclick="window.location.href='<?php echo FRONT_ROOT?>/View/resumeView'">|  <strong>Resume</strong></a>
+        <a type ="button" class="nav-link text-light" value="contact" onclick="window.location.href='<?php echo FRONT_ROOT?>View/resumeView'">|  <strong>Resume</strong></a>
         </li>
       </ul>
     </div>
