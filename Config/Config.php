@@ -3,9 +3,16 @@
 /* PATH CONSTANTS */
 
 define("ROOT", dirname(__DIR__) . "/"); 
+define("FRONT_ROOT", "/");
+define("VIEWS_PATH", ROOT."Views/");
+define("CSS_PATH", FRONT_ROOT.VIEWS_PATH . "css/");
+define("JS_PATH", FRONT_ROOT.VIEWS_PATH . "js/");
+
+define('CONFIG',ROOT.'Config');
+/* define("ROOT", dirname(__DIR__) . "/"); 
 define("FRONT_ROOT", "http://localhost/jazmin-personal");
 define("CONTROLLERS", FRONT_ROOT."/Controllers");
-define("VIEWS", "http://localhost/jazmin-personal/Views");
+define("VIEWS", "http://localhost/jazmin-personal/Views"); */
 //define("FRONT_ROOT", "/jazmin-personal/");
 /*define("CSS_PATH", FRONT_ROOT.VIEWS_PATH . "css/");
 define("JS_PATH", FRONT_ROOT.VIEWS_PATH . "js/");

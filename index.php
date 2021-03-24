@@ -14,20 +14,12 @@ use Config\Request 	as Request;
 
 Autoload::start();
 
-//define("FRONT_ROOT", "/jazmin-briasco/");
-//define("VIEWS_PATH", ROOT."Views/");
-
-
-//session_start();
 header('Cache-Control: no cache'); //disable validation of form by the browser
-/*echo (dirname(__DIR__));
-echo '<br>';
-echo '<br>';
-echo (dirname(__DIR__).'/jazmin-personal/header.php');
-echo '<br>';
-*/
 
+echo VIEWS_PATH;
 require_once('/Views/header.php');
+
+
 
 Router::Route(new Request());
 
