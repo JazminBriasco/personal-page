@@ -16,42 +16,7 @@ Autoload::start();
 
 header('Cache-Control: no cache'); //disable validation of form by the browser
 echo 'index';
-try{
-    require('/jazmin-personal/Views/header.php');
 
-}catch(Exception $e){
-    try{
-        require('jazmin-personal/Views/header.php');
-    
-    }catch(Exception $e){
-        try{
-            require('/Views/header.php');
-        
-        }catch(Exception $e){
-        
-        }    try{
-            require('Views/header.php');
-        
-        }catch(Exception $e){
-        
-        }    try{
-            require('/header.php');
-        
-        }catch(Exception $e){
-        
-        }    try{
-            require('header.php');
-        
-        }catch(Exception $e){
-        }    try{
-            require(ROOT.'jazmin-personal/Views/header.php');
-        
-        }catch(Exception $e){
-        
-        }  
-        }    
-      
-}
 require('jazmin-personal/Views/header.php');
 require('/Views/header.php');
 require('Views/header.php');
