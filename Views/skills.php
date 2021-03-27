@@ -1,9 +1,6 @@
 <style>
     body{
        /*  background-image: url("https://p0.piqsels.com/preview/219/320/842/5be9930e0504d.jpg"); */
-        background-size: 100%;
-        background-attachment: fixed;
-        margin-bottom: 3%;
     }
 </style>
 
