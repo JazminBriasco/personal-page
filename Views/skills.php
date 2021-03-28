@@ -1,9 +1,6 @@
 <style>
     body{
        /*  background-image: url("https://p0.piqsels.com/preview/219/320/842/5be9930e0504d.jpg"); */
-        background-size: 100%;
-        background-attachment: fixed;
-        margin-bottom: 3%;
     }
 </style>
 
@@ -15,34 +12,33 @@
         'PHP', 'DATABASE', 'SQL', 'JAVA', 'HTML5', 'CSS3', 'BOOTSTRAP', 'LINUX', 'C', 'GIT'
     ];
     $php = [
-        'Logical operators', 'Arithmetic operators', 'Comparison operators','Unary operators', 'Conditional operators',
-        'Loops',' Functions',' Indexed arrays', 'Associative arrays', 'HTTP Methods: GET / POST', 'Class', 'Methods', 'Namespace and Autoload', 'Request / Router', 'JSON',
-        'SESSION', 'View-controller model', 'Database connection'
+        'Operadores lógicos', 'Operadores aritméticos', 'Operadores de comparación', 'Operadores unarios', 'Operadores condicionales', 'Bucles', 'Funciones', 'Matrices indexadas', 'Matrices asociativas', 'Métodos HTTP: GET / POST ',' Clases ',' Métodos ','Namespace y Autoload','Request / Router',' JSON ',' SESSION ',' Modelo vista-controlador ',' Conexión a base de datos '
     ];
     $database = [
-        'Relational model', 'Normalization', 'Client-server model', 'ERD','Relational algebra'
+        'Modelo relacional', 'Normalización', 'Modelo cliente-servidor', 'DER', 'Álgebra relacional'
     ];
     $sql = [
-        'Create, update, delete tables', 'Primary and Foreign keys', 'Insert, update, delete', 'Joins', 'Order and group', 'Restrictions',' Constraints', 'Subqueries','Stored Procedure: in, out, inout'
+        'Crear, actualizar, eliminar tablas', 'Primary, Foreign keys', 'Insertar, actualizar, eliminar', 'Joins', 'Order, Group', 'Restricciones', 'Constraints', 'Subconsultas', 'Procedimiento almacenado: in, out, inout'
     ];
     $java = [
-        'POO',' Abstract Class', 'Map', 'Interfaces', 'Collections','Operators','Access modifiers', 'Exceptions', 'Files', 'Generic class', 'Generic methods', 'JSON' 
+        'POO', 'Clases abstractas', 'Maps', 'Interfaces', 'Colecciones', 'Operadores', 'Modificadores de acceso', 'Excepciones', 'Archivos', 'Clase genérica', 'Métodos genéricos', 'JSON '
     ];
     $html = [
-        'Global structure','Headings and paragraphs','Links','Audio and video','Block elements','Inline elements','Images','Tables','Forms'
+        'Estructura global', 'Encabezados y párrafos', 'Vínculos', 'Audio y video', 'Elementos de bloque', 'Elementos en línea', 'Imágenes', 'Tablas', 'Formularios'
     ];
     $css = [
-        'Class / id selector','Margin and padding', 'Fonts', 'Backgrounds', 'Color and gradient', 'Basic animations'
+        'Selector de clase / id', 'Margen y padding', 'Fuentes', 'Fondos', 'Color y degradado', 'Animaciones básicas'
     ];
     $bootstrap = [
         'Layout', 'Content', 'Forms', 'Components'
     ];
     $linux = [
-        'Basic use of terminal'];
+        'Uso básico de la terminal'];
     $c = [
-        'Functions', 'Data type','Pointers', 'Arrays', 'Multidimensional Arrays', 'Dynamic', 'ArraysStructs', 'Recursion', 'Linked Lists', 'Doubly Linked List' , 'Stack', 'Queue', 'Binary Tree'];
+        'Funciones', 'Tipo de datos', 'Punteros', 'Arreglos', 'Arreglos multidimensionales', 'Arreglos Dinámicos', 'Estructuras', 'Recursión', 'Listas enlazadas', 'Lista doblemente enlazada', 'Pila', ' Fila ',' Árbol binario '
+    ];
     $git = [
-        'Create repository', 'Local / remote changes','Management branches', 'Gitignore', 'Merges','Resolve merge conflicts'
+        'Crear repositorio', 'Cambios locales / remotos', 'Administración de ramas', 'Gitignore', 'Merge', 'Resolución de conflictos'
     ];
 
     //'mayor' is use to loop through all the arrays.

@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
     margin-bottom: 3%;
     background-image: url("/Views/img/bg-principal.jpg");
