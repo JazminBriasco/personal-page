@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-dark-grey">
+<nav class="navbar navbar-expand-lg navbar-light bg-dark-grey ">
   <div class="col-5 nml-20 ">
     <a class="navbar-brand icon mr-1 ml-3" onclick="window.location.href='<?php echo FRONT_ROOT?>View/homeView'"></a>
   </div>
