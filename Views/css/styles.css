@@ -75,6 +75,14 @@ body{
     color:#afd5f5 ;
 }
 
+.pl-0{
+    padding-left: 0;
+}
+
+.list-style-none{
+    list-style: none;
+}
+
 @media screen and (max-width:690px) {
     .navbar-toggler {
 

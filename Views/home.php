@@ -39,6 +39,7 @@
       <li>Sending tickets to the registered email,</li>
       <li>Corresponding validations.</li>
       <li><a href="https://github.com/jmburgues/TP-MoviePass" class="a-link" target="_blank">github.com/MoviePass</a></li>
+      <li><a href="https://themoviepass.herokuapp.com/" class="a-link" target="_blank">themoviepass.herokuapp.com/</a></li>
     </ul>
   </div>
   
