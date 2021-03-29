@@ -69,7 +69,7 @@
             <p class ="card-subtitle">PERSONAL PAGE</p><hr>
                 <p class="pt-3">Página personal realizada en PHP a modo de currículum:</p>
                 <p><a href="https://jazmin-briasco.herokuapp.com/" class="a-link" target="_blank">jazmin-briasco.com/</a></p>
-                <a class="a-link" href="/jazmin-personal/Views/img/jazmin-briasco-resume.pdf" download="jazmin-briasco-resume">
+                <a class="a-link" href="/Views/img/jazmin-briasco-resume.pdf" download="jazmin-briasco-resume">
                     Descargar CV pdf
                 </a>
             </div>
