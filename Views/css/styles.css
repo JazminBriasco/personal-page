@@ -3,7 +3,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     margin-bottom: 3%;
-    background-image: url("/Views/img/bg-principal.jpg");
+    background-image: url("../img/bg-principal.jpg");
 }
 
 .icon{
@@ -73,6 +73,14 @@ body{
 
 .a-link:hover{
     color:#afd5f5 ;
+}
+
+.pl-0{
+    padding-left: 0;
+}
+
+.list-style-none{
+    list-style: none;
 }
 
 @media screen and (max-width:690px) {

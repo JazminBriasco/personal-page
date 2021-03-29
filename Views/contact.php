@@ -1,8 +1,8 @@
 <style>
     body{
     /*   background-image: url("/jazmin-personal/Views/img/woman-macbook-notebook-laptop.jpg");*/
-
     }
+    
 </style>
 <div class="contact-divs">
   <div class="borders"> 

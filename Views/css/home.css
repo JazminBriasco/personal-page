@@ -44,6 +44,63 @@
     }
 }
 
+@-webkit-keyframes myAnimationjmb{
+    10%{                   
+        margin-top:3%;     
+        opacity: 0%;
+        color:black;
+    }30%{                   
+            margin-top:2%;       
+            opacity: 0%;
+            color:black;
+    }40%{            
+        margin-top:1%;       
+        opacity: 50%;
+        color:black;
+    }50%{            
+        
+        opacity: 50%;
+        color:black;
+    }70%{            
+        margin-top:-1%;       
+        opacity: 50%;
+        color:black;
+    }  
+    100%{            
+        opacity: 100%;
+        color:black;
+    }
+}
+
+@-moz-keyframes myAnimationjmb{
+    10%{                   
+        margin-top:3%;     
+        opacity: 0%;
+        color:black;
+    }30%{                   
+            margin-top:2%;       
+            opacity: 0%;
+            color:black;
+    }40%{            
+        margin-top:1%;       
+        opacity: 50%;
+        color:black;
+    }50%{            
+        
+        opacity: 50%;
+        color:black;
+    }70%{            
+        margin-top:-1%;       
+        opacity: 50%;
+        color:black;
+    }  
+    100%{            
+        opacity: 100%;
+        color:black;
+    }
+}
+
+
 @keyframes myAnimationGreeetings{
     0%{                   
         color:rgb(0, 0, 0);
@@ -131,6 +188,25 @@
         opacity: 98%;
     }
 }
+
+@-webkit-keyframes myAnimationSkills{
+    0%{     
+        opacity: 0%;        
+    }
+    100%{
+        opacity: 98%;
+    }
+}
+
+@-moz-keyframes myAnimationSkills{
+    0%{     
+        opacity: 0%;        
+    }
+    100%{
+        opacity: 98%;
+    }
+}
+
 .skills-transition{
     scroll-behavior: smooth;
     animation: myAnimationSkills 2s  ease  ;
