@@ -9,7 +9,7 @@
                 <div class="subtitle-div"><p class ="card-subtitle">SKILLS</p></div>    
             
                 <hr>
-                <ul class = "pl-0 list-style-none" >
+                <ul class = "pl-0 list-style-none" style="list-style:none;">
                     <li>HTML 5</li>
                     <li>CSS3 </li>
                     <li>BOOTSTRAP</li>
@@ -20,7 +20,7 @@
             <div class="border-resume-left col-sm-2 resp-col">
             <div class="subtitle-div disp-none"><p class ="card-subtitle">SKILLS</p></div>    
             <hr >
-                <ul class = "pl-0 list-style-none">
+                <ul class = "pl-0 list-style-none" style="list-style:none;">
                     <li>PHP </li>
                     <li>SQL</li>
                     <li>JAVA </li>
