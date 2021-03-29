@@ -31,7 +31,7 @@
             </div>
 
             <div class="border-resume col-md-5 offset-md-1 mt-1  ">
-            <p class ="card-subtitle">SKILLS</p><hr>
+            <p class ="card-subtitle">EDUCATION</p><hr>
                 <p><b>Universidad Tecnológica Nacional</b></p>
                 <p>Tecnicatura Universitaria en programación</p>
                 <p><i>Fecha de finalización: 2021</i></p>
@@ -40,7 +40,7 @@
 
         <div class="row ">       
             <div class="border-resume col-md-5 mt-1 ">
-            <p class ="card-subtitle">SKILLS</p><hr>
+            <p class ="card-subtitle">ABOUT</p><hr>
                 Recientemente finalicé la carrera de <p> <b>'Técnico Universitario en Programación'. </b></p>
                 <p>Busco formar parte de un equipo con un buen ambiente de compañerismo y responsabilidad, donde pueda avanzar con mi carrera profesional.</p>
                 <i> Ciudad de residencia: Mar del Plata.  </i>
@@ -48,7 +48,7 @@
             </div>
             <div class="border-resume col-md-5 offset-md-1 mt-1">
 
-                <p class ="card-subtitle">SKILLS</p><hr>
+                <p class ="card-subtitle">CONTACT</p><hr>
                 <ul class = "pl-0 list-style-none  pt-4">
                     <li><b> Mobile: </b> 223-155-968437 </li>
                     <li><b> Email: </b> briascojazmin@gmail.com</li>
@@ -61,7 +61,7 @@
         
         <div class="row ">
             <div class="border-resume col-md-5 mt-1 ">
-                <p class ="card-subtitle">SKILLS</p><hr>
+                <p class ="card-subtitle">PERSONAL</p><hr>
                 <p>Trabajo práctico integrador de Metodología en Sistemas I y Laboratorio IV, Universidad Tecnológica Nacional, 2021.</p>
                 <p>Sistema de venta de entradas de cine.</p>
                 <p>Desarrollo de clases, controladores, vistas y capa de acceso a datos. <p>
@@ -70,7 +70,7 @@
                 
             </div>
             <div class="border-resume col-md-5 offset-md-1 mt-1 ">
-            <p class ="card-subtitle">SKILLS</p><hr>
+            <p class ="card-subtitle">PERSONAL PAGE</p><hr>
                 <p class="pt-3">Página personal realizada en PHP a modo de currículum:</p>
                 <p><a href="https://jazmin-briasco.herokuapp.com//" class="a-link" target="_blank">jazmin-briasco.com/</a></p>
                 <a class="a-link" href="/jazmin-personal/Views/img/jazmin-briasco-resume.pdf" download="jazmin-briasco-resume">

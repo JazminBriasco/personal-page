@@ -105,6 +105,15 @@
     .subtitle-div{
         padding-left: 0%;
     }
+    .resume{
+        margin-top: 8%;
+        margin-bottom: -130px;
+        width: 100%;
+    }
+    .inside-text{
+        font-size: 40px;
+        padding-top: 0%;
+    }
 }
 
 
@@ -137,6 +146,16 @@
     .subtitle-div{
         padding-left: 0%;
     }
+    .resume{
+        margin-top: 5%;
+        margin-bottom: -95px;
+        width: 82%;
+    }
+    
+    .inside-text{
+        font-size: 55px;
+        padding-top: 0%;
+    }
 }
 
 
@@ -149,6 +168,15 @@
     .subtitle-div{
         padding-left: 65%;
     }
+    .resume{
+        margin-top: 5%;
+        margin-bottom: -85px;
+        width: 62%;
+    }
+    .inside-text{
+        font-size: 58px;
+        padding-top: 0%;
+    }
 }
 
 
@@ -156,5 +184,12 @@
     .inside-text{
         font-size: 80px;
         padding-top: 0; 
+    }
+    .resume{
+        margin-bottom: -75px;
+    }
+    .inside-text{
+        font-size: 70px;
+        padding-top: 1%; 
     }
 }
