@@ -45,7 +45,7 @@
             </div>
             <div class="border-resume col-md-5 offset-md-1 mt-1">
                 <p class ="card-subtitle">CONTACT</p><hr>
-                <ul class = "pl-0 list-style-none  pt-4">
+                <ul class = "pl-0 list-style-none  pt-4" style="list-style:none;">
                     <li><b> Mobile: </b> 223-155-968437 </li>
                     <li><b> Email: </b> briascojazmin@gmail.com</li>
                     <li><b> Portfolio: </b> jazmin-briasco.herokuapp.com/ </li>
