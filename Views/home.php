@@ -1,5 +1,5 @@
 <div class=" mt-6p w-75 greetings">
-  <h1 class="display-4 text-center">Hi!</h1>
+  <h1 class="display-4 text-center">Hi! I'm</h1>
     <div class="lead text-center">  
       
   </div>
@@ -14,31 +14,32 @@
   </div>
 
   <div class="jumbotron jmb-home w-75">
-    <p>Estudios finalizados en la Universidad Tecnológica Nacional con título de "Técnico Universitario en Programación" en el año 2021. 
-    Busco formar parte de un equipo con un buen ambiente, compañerismo y responsabilidad, donde pueda avanzar con mi carrera profesional.
-    <p>Ciudad de residencia: Mar del Plata.</p>
+    <p> Studies completed at the National Technological University.<br>
+        Deegree: "University Technician in Programming" year 2021. <br>
+        I want to be part of a succes team, where  i can use my talent, with teemwork and responsibility.
+    </p>
+
+    <p>City of residence: Mar del Plata. </p>
   </div>
 
   <div class="jumbotron jmb-home w-75">
     <div class="tmp-jbm">
-      <h1>The Movie Pass </h1>
-      <i class="mt-5p">&nbsp;&nbsp;UTN 2020</i>
+      <h1>Movie Pass</h1>
+      <i class="mt-5p">&nbsp;&nbsp;UTN 2021</i>
     </div>
-    <p>
-    Trabajo práctico integrador de Metodología en Sistemas I y Laboratorio IV, Universidad Tecnológica Nacional, 2021.
-    Sistema de venta de entradas de cine.
-    Desarrollo de clases, controladores, vistas y capa de acceso a datos.
+    <p> Practical work of Methodology in Systems I and Laboratory IV, National Technological University, 2021. 
+        Movie ticket sales system. 
     </p>
     <ul>
-      <li>Registro y logueo de usuario,</li>
-      <li>Acceso a películas mediante una API,</li>
-      <li>Creación, modificación y eliminación de Cines,</li>
-      <li>Creación, modificación y eliminación de Salas,</li>
-      <li>Creación, modificación y eliminación de Funciones,</li>
-      <li>Compra de entradas,</li>
-      <li>Visualización de entradas,</li>
-      <li>Envío de entradas al email registrado,</li>
-      <li>Validaciones correspondientes.</li>
+      <li>Registration and login of user,</li>
+      <li>Access to movies through an API,</li>
+      <li>Creation, update and delete of Cinemas,</li>
+      <li>Creation, update and delete of Rooms,</li>
+      <li>Creation, update and delete of Functions,</li>
+      <li>Ticket purchase,</li>
+      <li>Ticket display,</li>
+      <li>Sending tickets to the registered email,</li>
+      <li>Corresponding validations.</li>
       <li><a href="https://themoviepass.herokuapp.com/" class="a-link" target="_blank">themoviepass.herokuapp.com</a></li>
       <li><a href="https://github.com/jmburgues/TP-MoviePass" class="a-link" target="_blank">github.com/MoviePass</a></li>
 

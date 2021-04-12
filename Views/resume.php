@@ -13,6 +13,7 @@
                     <li>HTML 5</li>
                     <li>CSS3 </li>
                     <li>BOOTSTRAP</li>
+                    <li>REACT</li>
                     <li>LINUX </li>
                     <li>Intermediate English</li>
                 </ul> 
@@ -24,23 +25,24 @@
                     <li>PHP </li>
                     <li>SQL</li>
                     <li>JAVA </li>
+                    <li>JAVASCRIPT</li>
                     <li>C</li>
                     <li>GIT</li> 
                 </ul> 
             </div>
             <div class="border-resume col-md-5 offset-md-1 mt-1  ">
             <p class ="card-subtitle">EDUCATION</p><hr>
-                <p><b>Universidad Tecnológica Nacional</b></p>
-                <p>Tecnicatura Universitaria en programación</p>
-                <p><i>Fecha de finalización: 2021</i></p>
+                <p><b>National Technological University</b></p>
+                <p>"University Technician in Programming"</p>
+                <p><i>Finish date: 2021</i></p>
             </div>
         </div>
         <div class="row ">       
             <div class="border-resume col-md-5 mt-1 ">
             <p class ="card-subtitle">ABOUT</p><hr>
-                Recientemente finalicé la carrera de <p> <b>'Técnico Universitario en Programación'. </b></p>
-                <p>Busco formar parte de un equipo con un buen ambiente de compañerismo y responsabilidad, donde pueda avanzar con mi carrera profesional.</p>
-                <i> Ciudad de residencia: Mar del Plata.  </i>
+                I recently completed my university degree: <p> <b>'Técnico Universitario en Programación'. </b></p>
+                <p>I want to be part of a succes team, where  i can use my talent, with teemwork and responsibility.</p>
+                <i> City of residence: Mar del Plata.  </i>
                 
             </div>
             <div class="border-resume col-md-5 offset-md-1 mt-1">
@@ -58,16 +60,13 @@
         <div class="row ">
             <div class="border-resume col-md-5 mt-1 ">
                 <p class ="card-subtitle">PERSONAL</p><hr>
-                <p>Trabajo práctico integrador de Metodología en Sistemas I y Laboratorio IV, Universidad Tecnológica Nacional, 2021.</p>
-                <p>Sistema de venta de entradas de cine.</p>
-                <p>Desarrollo de clases, controladores, vistas y capa de acceso a datos. <p>
+                <p>Practical work of Methodology in Systems I and Laboratory IV, National Technological University, 2021.</p>
+                <p>Movie ticket sales system.</p>
                 <p ><a href="https://themoviepass.herokuapp.com/" class="a-link" target="_blank">themoviepass.com/</a></p>
-                
-                
             </div>
             <div class="border-resume col-md-5 offset-md-1 mt-1 ">
             <p class ="card-subtitle">PERSONAL PAGE</p><hr>
-                <p class="pt-3">Página personal realizada en PHP a modo de currículum:</p>
+                <p class="pt-3">Personal page as a resume:</p>
                 <p><a href="https://jazmin-briasco.herokuapp.com/" class="a-link" target="_blank">jazmin-briasco.com/</a></p>
                 <a class="a-link" href="/Views/img/jazmin-briasco-resume.pdf" download="jazmin-briasco-resume">
                     Descargar CV pdf

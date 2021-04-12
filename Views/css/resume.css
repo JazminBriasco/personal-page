@@ -1,15 +1,21 @@
 .resume{
-    background-image: url("../img/fondo.svg");
+    color: black;
     width: 60%;
     margin: 0 auto;
     margin-top: 3%;
     height: 11em;
-    background-size: 100%;        
-    background-repeat: no-repeat;       
-    filter:  saturate(350%);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    filter: saturate(350%);
     text-align: center;
-    opacity: 98%;
+    opacity: 100%;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    background-color: rgb(255 255 255 / 30%);
 }
+
+
 
 .inside-text{
     font-family: ' Courgette', 'sans-serif';
@@ -191,6 +197,9 @@
     .inside-text{
         font-size: 70px;
         padding-top: 1%; 
+    }
+    .container{
+        margin-left: 21%;
     }
 }
 
