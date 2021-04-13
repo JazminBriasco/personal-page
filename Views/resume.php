@@ -25,7 +25,6 @@
                     <li>PHP </li>
                     <li>SQL</li>
                     <li>JAVA </li>
-                    <li>JAVASCRIPT</li>
                     <li>C</li>
                     <li>GIT</li> 
                 </ul> 
@@ -68,7 +67,7 @@
             <p class ="card-subtitle">PERSONAL PAGE</p><hr>
                 <p class="pt-3">Personal page as a resume:</p>
                 <p><a href="https://jazmin-briasco.herokuapp.com/" class="a-link" target="_blank">jazmin-briasco.com/</a></p>
-                <a class="a-link" href="/Views/img/jazmin-briasco-resume.pdf" download="jazmin-briasco-resume">
+                <a class="a-link" href="/Views/img/e-jazminbriasco-resume.pdf" download="jazmin-briasco-resume">
                     Descargar CV pdf
                 </a>
             </div>

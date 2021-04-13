@@ -9,7 +9,7 @@ body {
 //Arrays. The 'skills' array is use for the names on the dropdowns, and the others are for the content. 
     
     $skills = [
-        'PHP', 'DATABASE', 'MySQL', 'JAVA', 'HTML5', 'CSS3', 'BOOTSTRAP', 'LINUX', 'C', 'GIT', 'REACT', 'JAVASCRIPT'
+        'PHP', 'DATABASE', 'MySQL', 'JAVA', 'HTML5', 'CSS3', 'BOOTSTRAP', 'LINUX', 'C', 'GIT', 'REACT'
     ];
     $php = [
         "Operators",
@@ -84,16 +84,6 @@ body {
     "Branches",
     "Merge"
     ];
-
-    $javascript = [
-        "Functions ",
-    "Object Literal ",
-    "Prototypes ",
-    "Map, filter ",
-    "Async, Await ",
-    "Callbacks" ,
-    "Promises"
-    ];
     $react = [
         "NPM",
     "State",
@@ -102,7 +92,7 @@ body {
     ];
 
     //'mayor' is use to loop through all the arrays.
-    $mayor = [ $php, $database, $sql, $java, $html, $css, $bootstrap, $linux, $c, $git, $react, $javascript];
+    $mayor = [ $php, $database, $sql, $java, $html, $css, $bootstrap, $linux, $c, $git, $react];
 ?>
 
 <div class="skill-content-opacity skills-transition mt-5">
